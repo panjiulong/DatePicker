@@ -5,7 +5,6 @@ target 'DatePicker_Example' do
 
   target 'DatePicker_Tests' do
     inherit! :search_paths
-
     
   end
 end

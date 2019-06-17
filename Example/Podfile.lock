@@ -1,0 +1,16 @@
+PODS:
+  - DatePicker (0.1.0)
+
+DEPENDENCIES:
+  - DatePicker (from `../`)
+
+EXTERNAL SOURCES:
+  DatePicker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DatePicker: 61f3c54fc52b268de61a881e28b221bea0ce8b35
+
+PODFILE CHECKSUM: b7103b96d4f1d12dff3802a8e96d858987b0a07b
+
+COCOAPODS: 1.7.0
