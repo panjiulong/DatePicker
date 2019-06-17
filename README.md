@@ -7,7 +7,13 @@
 [![Platform](https://img.shields.io/cocoapods/p/DatePicker.svg?style=flat)](https://cocoapods.org/pods/DatePicker)
 
 ##ScreenShot
-![图片alt](图片地址 ''图片title'')
+![图片alt](https://github.com/panjiulong/DatePicker/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%206.png)
+
+##Feature
+####1.支持界面大程度化的自定义
+####2.支持开始时间结束时间自定义
+###3.支持设置选中的日期
+
 
 ## Example
 
