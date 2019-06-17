@@ -16,9 +16,9 @@ class ViewController: UIViewController {
         config.minDate =  Date().addingTimeInterval(( 365 * 1 * 24 * 60 * 60) * -100)
         config.defualtSelectedDate = Date.create(from: sender.titleLabel?.text ?? "") ?? Date()
         config.pickerBackgroundColor = .green
-        config.cancleTitle = NSAttributedString(string: "cancel", attributes: [NSAttributedString.Key.foregroundColor:UIColor.black,NSAttributedString.Key.font:UIFont.systemFont(ofSize: 18)])
-        config.confirmTitle = NSAttributedString(string: "confirm", attributes: [NSAttributedString.Key.foregroundColor:UIColor.black,NSAttributedString.Key.font:UIFont.systemFont(ofSize: 18)])
-        config.title = NSAttributedString(string: "没得打双打的大时代", attributes: [NSAttributedString.Key.foregroundColor:UIColor.black,NSAttributedString.Key.font:UIFont.systemFont(ofSize: 18)])
+        config.cancleTitle = NSAttributedString(string: "取消", attributes: [NSAttributedString.Key.foregroundColor:UIColor.black,NSAttributedString.Key.font:UIFont.systemFont(ofSize: 18)])
+        config.confirmTitle = NSAttributedString(string: "确定", attributes: [NSAttributedString.Key.foregroundColor:UIColor.black,NSAttributedString.Key.font:UIFont.systemFont(ofSize: 18)])
+        config.title = NSAttributedString(string: "日期选择", attributes: [NSAttributedString.Key.foregroundColor:UIColor.black,NSAttributedString.Key.font:UIFont.systemFont(ofSize: 18)])
         config.headerLineColor = .gray
         config.backgroundColor = UIColor(red: 0.5, green: 0.1, blue: 0.1, alpha: 0.1)
         config.headerHeight = 60.0
