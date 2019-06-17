@@ -9,8 +9,6 @@
 
 ##ScreenShot
 
-![图片alt](https://github.com/panjiulong/DatePicker/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%206.png?imageMogr2/auto-orient/%7CimageView2/2/w/300)
-
 <img src="https://github.com/panjiulong/DatePicker/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%206.png" width="375" alt=""/>
 
 ##Feature
