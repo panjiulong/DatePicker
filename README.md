@@ -6,8 +6,12 @@
 [![License](https://img.shields.io/cocoapods/l/DatePicker.svg?style=flat)](https://cocoapods.org/pods/DatePicker)
 [![Platform](https://img.shields.io/cocoapods/p/DatePicker.svg?style=flat)](https://cocoapods.org/pods/DatePicker)
 
+
 ##ScreenShot
-![图片alt](https://github.com/panjiulong/DatePicker/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%206.png)
+
+![图片alt](https://github.com/panjiulong/DatePicker/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%206.png?imageMogr2/auto-orient/%7CimageView2/2/w/300)
+
+<img src="https://github.com/panjiulong/DatePicker/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%206.png" width="375" alt=""/>
 
 ##Feature
 ####1.支持界面大程度化的自定义
