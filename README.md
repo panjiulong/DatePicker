@@ -35,7 +35,7 @@ pod 'DatePicker'
 
 ## Author
 
-Zachry, panjiulong@utimes.cc
+jiulongpan@gmail.com
 
 ## License
 
