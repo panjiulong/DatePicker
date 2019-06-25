@@ -8,7 +8,7 @@
 
 
 ## ScreenShot
-<div align=center><img src="https://github.com/panjiulong/DatePicker/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%206.png" width="375" alt="ScreenShot"/></div>
+<div align=center><img src="https://github.com/panjiulong/DatePicker/blob/master/hjGWCfFc7m.gif" width="375" alt="ScreenShot"/></div>
 
 ## Feature
 #### 1.支持界面大程度化的自定义
