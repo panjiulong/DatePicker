@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DatePicker'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of DatePicker.'
+  s.version          = '0.1.1'
+  s.summary          = 'DatePicker is a three-tier interactive date selection component based on UIPickerView.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,19 +18,20 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+    DatePicker is a three-tier interactive date selection component based on UIPickerView. It can customize the UI, set start and end dates, and set selected dates.
                        DESC
 
-  s.homepage         = 'https://github.com/Zachry/DatePicker'
+  s.homepage         = 'https://github.com/panjiulong/DatePicker.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Zachry' => 'panjiulong@utimes.cc' }
-  s.source           = { :git => 'https://github.com/Zachry/DatePicker.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'panjiulong' => 'jiulongpan@gmail.com' }
+  s.source           = { :git => 'https://github.com/panjiulong/DatePicker.git', :tag => s.version.to_s }
+s.social_media_url = 'https://www.jianshu.com/u/a8601fa19a75'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'DatePicker/Classes/**/*'
+  s.swift_version = '4.2'
   
   # s.resource_bundles = {
   #   'DatePicker' => ['DatePicker/Assets/*.png']

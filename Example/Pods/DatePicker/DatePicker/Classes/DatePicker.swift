@@ -54,8 +54,6 @@ public struct DatePickerConfig {
         return  NSAttributedString(string: "\(yearText)日", attributes: [NSAttributedString.Key.foregroundColor:UIColor.black,NSAttributedString.Key.font:UIFont.systemFont(ofSize: 20)])
     }
     
-    public var animator:UIViewControllerTransitioningDelegate = PopoverAnimator(transitionDuration: 0.5, backColor: UIColor(white: 0.3, alpha: 0.3))
-
 }
 
 open class DatePicker: NSObject {
@@ -68,8 +66,9 @@ open class DatePicker: NSObject {
     
     public func show() {
         let datePickerVC = DatePickerViewController(config)
+        let animation = PopoverAnimator(transitionDuration: 0.5, backColor: UIColor(white: 0.3, alpha: 0.3))
         datePickerVC.modalPresentationStyle = .custom
-        datePickerVC.transitioningDelegate = config.animator
+        datePickerVC.transitioningDelegate = animation
         UIApplication.shared.keyWindow?.rootViewController?.present(datePickerVC, animated: true, completion: nil)
     }
     

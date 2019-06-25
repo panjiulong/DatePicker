@@ -1,22 +1,25 @@
 {
   "name": "DatePicker",
-  "version": "0.1.0",
-  "summary": "A short description of DatePicker.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Zachry/DatePicker",
+  "version": "0.1.1",
+  "summary": "DatePicker is a three-tier interactive date selection component based on UIPickerView.",
+  "description": "DatePicker is a three-tier interactive date selection component based on UIPickerView. It can customize the UI, set start and end dates, and set selected dates.",
+  "homepage": "https://github.com/panjiulong/DatePicker.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Zachry": "panjiulong@utimes.cc"
+    "panjiulong": "jiulongpan@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Zachry/DatePicker.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/panjiulong/DatePicker.git",
+    "tag": "0.1.1"
   },
+  "social_media_url": "https://www.jianshu.com/u/a8601fa19a75",
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "DatePicker/Classes/**/*"
+  "source_files": "DatePicker/Classes/**/*",
+  "swift_versions": "4.2",
+  "swift_version": "4.2"
 }

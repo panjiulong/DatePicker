@@ -35,7 +35,6 @@ class DatePickerViewController: UIViewController{
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         datePickerView.setDate(config.defualtSelectedDate)
-        self.transitioningDelegate = config.animator
     }
     
     func setupUI() {

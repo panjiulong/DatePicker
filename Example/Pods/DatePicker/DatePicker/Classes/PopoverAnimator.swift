@@ -38,12 +38,16 @@ extension PopoverAnimator:UIViewControllerTransitioningDelegate{
 }
 
 extension PopoverAnimator:UIViewControllerAnimatedTransitioning{
+    
     func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
         return transitionDuration
     }
+    
     func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
-          isPresented ? animationForPresentedView(transitionContext: transitionContext) : animationForDismissedView(transitionContext: transitionContext)
+        print(isPresented)
+        isPresented ? animationForPresentedView(transitionContext: transitionContext) : animationForDismissedView(transitionContext: transitionContext)
     }
+    
     func animationForPresentedView(transitionContext: UIViewControllerContextTransitioning) {
         let presentedView = transitionContext.view(forKey: .to)!
         presentedView.size = transitionContext.containerView.size
@@ -61,12 +65,12 @@ extension PopoverAnimator:UIViewControllerAnimatedTransitioning{
              transitionContext.completeTransition(true)
         }
     }
+    
     func animationForDismissedView(transitionContext: UIViewControllerContextTransitioning) {
         let dismissView = transitionContext.view(forKey: .from)!
         UIView.animate(withDuration: transitionDuration(using: transitionContext), delay: 0, options: .curveEaseInOut, animations: {
             dismissView.frame.origin.y = transitionContext.containerView.frame.size.height
             self.backGroundView.alpha = 0.01
-            transitionContext.containerView.alpha = 0.01
 
         }) { (_) in
             dismissView.removeFromSuperview()
